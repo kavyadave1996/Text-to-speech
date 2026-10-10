@@ -1,6 +1,4 @@
-# Text-to-speech
-Robust Multi-Speaker Maritime VHF Text-to-Speech Generation and Quality Evaluation Using Clean and Noisy Reference Speech
-# Maritime VHF TTS Adaptation and Evaluation
+# Robust Multi-Speaker Maritime VHF Text-to-Speech Generation and Quality Evaluation Using Clean and Noisy Reference Speech
 
 ## Clickable Index
 
