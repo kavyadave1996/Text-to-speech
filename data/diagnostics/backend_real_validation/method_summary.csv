@@ -1,0 +1,5 @@
+﻿method,same_correct,same_total,same_accuracy,different_correct,different_total,different_accuracy,overall_correct,overall_total,overall_accuracy
+calibrated_cosine,5,5,1.0,9,10,0.9,14,15,0.9333333333333333
+plda,1,5,0.2,10,10,1.0,11,15,0.7333333333333333
+cohort,5,5,1.0,10,10,1.0,15,15,1.0
+final_2_of_3,5,5,1.0,10,10,1.0,15,15,1.0
