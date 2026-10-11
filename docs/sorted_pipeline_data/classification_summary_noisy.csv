@@ -1,0 +1,15 @@
+filename,verdict,high_freq_ratio,snr_db,reason
+(135) City Sailing SRC VHF Radio Course May Day Distress Call tutorial.wav,Node_F_Noisy,0.002889,27.93,VHF bandpass cutoff (<3.4 kHz) already present
+(135) Mayday Relay for sinking vessel on HF 8291 kHz in Australian bush.wav,Node_F_Noisy,0.000373,17.02,VHF bandpass cutoff (<3.4 kHz) already present
+(135) Mein Schiff 7_ Erfolgreiche Übung auf der Ostsee.wav,Node_F_Noisy,0.004631,17.99,VHF bandpass cutoff (<3.4 kHz) already present
+(51) Audio captures captain’s distress call after Iran fires on Indian tanker in Hormuz.wav,Node_F_Noisy,4.4e-05,17.92,VHF bandpass cutoff (<3.4 kHz) already present
+(51) Mayday Call from Fishing Vessel Off New Hampshire.wav,Node_F_Noisy,1e-06,20.9,VHF bandpass cutoff (<3.4 kHz) already present
+(51) Yacht's mayday call_ 'We are sinking'.wav,Node_F_Noisy,0.000615,13.85,VHF bandpass cutoff (<3.4 kHz) already present
+(51)Mayday call jet blue airline landing medical emergency but atc stop him #airplane #atcmemes.wav,Node_F_Noisy,6.2e-05,20.43,VHF bandpass cutoff (<3.4 kHz) already present
+(54) Boaters mayday call.wav,Node_F_Noisy,0.002648,12.56,VHF bandpass cutoff (<3.4 kHz) already present
+(54) Mayday call from capsized vessel on Saginaw Bay.wav,Node_F_Noisy,1e-06,23.58,VHF bandpass cutoff (<3.4 kHz) already present
+coast_guard_noisy.wav,Node_F_Noisy,0.002495,17.68,VHF bandpass cutoff (<3.4 kHz) already present
+French coastguard's mayday call after boat capsized – audio.wav,Node_F_Noisy,5.7e-05,27.57,VHF bandpass cutoff (<3.4 kHz) already present
+Northern Belle_ coast_guard.wav,Node_F_Noisy,0.00145,9.31,VHF bandpass cutoff (<3.4 kHz) already present
+Northern_Belle.wav,Node_F_Noisy,0.000401,9.95,VHF bandpass cutoff (<3.4 kHz) already present
+WhatsApp_audio_1.wav,Node_F_Noisy,0.001374,13.98,VHF bandpass cutoff (<3.4 kHz) already present

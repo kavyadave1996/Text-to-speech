@@ -1,0 +1,7 @@
+filename,verdict,high_freq_ratio,snr_db,reason
+(135) ScotSail VHF Radio Licence - Mayday Relay Voice Call.wav,Node_E_Clean,0.016253,31.33,"Wideband voice, studio/mic clarity, quiet background"
+(135) VHF Mayday call.wav,Node_E_Clean,0.025077,22.69,"Wideband voice, studio/mic clarity, quiet background"
+(41) Practical Boating MBM How to do a mayday DSC Motor Boats Monthly MBM.wav,Node_E_Clean,0.014365,25.18,"Wideband voice, studio/mic clarity, quiet background"
+(54) Example Mayday Message.wav,Node_E_Clean,0.090699,48.55,"Wideband voice, studio/mic clarity, quiet background"
+clean_coast_guard.wav,Node_F_Noisy,0.001345,18.8,VHF bandpass cutoff (<3.4 kHz) already present
+WhatsApp Audio 2026-08-01 at 08.13.34.wav,Node_E_Clean,0.005128,25.16,"Wideband voice, studio/mic clarity, quiet background"
