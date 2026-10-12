@@ -35,8 +35,6 @@
 
 **Outcome:** Fish-Speech and Chatterbox became the two main experimental engines. MOSS-TTSD was also part of the earlier comparison plan, but I cannot verify a completed MOSS generation experiment from the retrieved history.
 
-**GitHub documentation:** `docs/model-selection.md`
-
 ## Experiment 02 — Maritime text dataset preparation
 
 *May–August 2026 · Corpus preparation*
@@ -53,8 +51,6 @@
 - Later work introduced speaker-labelled dialogue data and an expanded dialogue corpus, with a 500-dialogue dataset referenced in the September discussions.
 
 The evolution of the datasets matters: the earlier 400-row plan, the expanded 500-dialogue dataset and the 60-row pilot should not be presented as interchangeable.
-
-**GitHub documentation:** `docs/dataset-preparation.md`
 
 ## Experiment 03 — Reference-audio preparation
 
@@ -81,8 +77,6 @@ The target naming convention used the term `clean_reference`, although filtering
 You also examined VHF-specific signal processing, including band-limited speech, compression, gain adjustments and limiting.
 
 **Outcome:** The clean-reference and noisy-reference conditions became central experimental variables.
-
-**GitHub documentation:** `docs/reference-audio-preparation.md`
 
 ## Experiment 04 — Text and prosody conditioning
 
@@ -112,8 +106,6 @@ The execution produced a missing-reference-text error involving a path under `da
 
 This is a valuable documented experiment because it exposes the distinction between reference text used for conditioning and target text used for synthesis.
 
-**GitHub documentation:** `docs/prosody-conditioning.md`
-
 ## Experiment 05 — VHF simulation and direct VHF speech adaptation
 
 *July–August 2026 · Domain adaptation design*
@@ -137,8 +129,6 @@ This is a valuable documented experiment because it exposes the distinction betw
 6. Evaluate directly generated VHF-like speech
 
 **Important distinction:** This is a confirmed research strategy, but I have not recovered proof of completed LoRA fine-tuning, training checkpoints or final VHF-adapted model evaluation. It must therefore remain separate from your confirmed pilot generation and QC experiments.
-
-**GitHub documentation:** `docs/vhf-adaptation.md`
 
 ## Experiment 06 — Speaker-reference consistency
 
@@ -178,8 +168,6 @@ I also recovered references to 15 real control trials, five verified A/B control
 **Scientific purpose:** Determine whether failed TTS generation resulted from reference inconsistency, cross-speaker confusion, or instability in synthesized voices.
 
 The exact validation commands and numerical results for all trials need to be recovered from your local logs before documenting the final thresholds.
-
-**GitHub documentation:** `docs/speaker-verification-experiments.md`
 
 ## Experiment 07 — Pilot generation using Fish-Speech and Chatterbox
 
@@ -225,8 +213,6 @@ You also ran the script in resume mode. Your logs showed `Skipping finalized row
 
 The pilot plan was described as containing 60 rows across four conditions. Later displayed logs covered row indices 0–44. I would verify the exact completed coverage before publishing a definitive count.
 
-**GitHub documentation:** `experiments/pilot/README.md`
-
 ## Experiment 08 — Speaker drift and generation retry policy
 
 *September 2026 · Speaker QC refinement*
@@ -256,8 +242,6 @@ The later turn failed the anchor-consistency requirement despite having a relati
 **Outcome:** The experiment illustrated why reference similarity and within-dialogue speaker consistency should be evaluated separately.
 
 These thresholds are historical test values, not necessarily the thresholds used by the latest three-way backend.
-
-**GitHub documentation:** `docs/speaker-drift-analysis.md`
 
 ## Experiment 09 — Automated turn-level quality control
 
@@ -294,8 +278,6 @@ You also discovered that some checks were too strict. For example, a dialogue wi
 
 Other modifications included normalizing numbers spoken digit by digit, case/spacing differences, `wind farm` versus `windfarm`, OVER/OUT counts, and truncation detection.
 
-**GitHub documentation:** `docs/qc-framework.md` and `docs/message-integrity-experiments.md`
-
 ## Experiment 10 — Automatic QC versus human listening
 
 *October 2026 · Human evaluation*
@@ -326,8 +308,6 @@ You also reviewed particular failed turns and multiple generation attempts, incl
 The examples above are individual annotations, not the full human-evaluation dataset.
 
 **Scientific value:** This supports eventual measurements of false rejection, false acceptance, agreement between automated and human decisions, and error-category reliability.
-
-**GitHub documentation:** `docs/human-evaluation.md`
 
 ## Experiment 11 — Chatterbox pronunciation normalization
 
